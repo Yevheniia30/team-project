@@ -1,5 +1,5 @@
 import './styles.css';
-// import './sass/main.scss';
+import './scss/main.scss';
 
 import refs from './js/refs';
 import fetchMovies from './js/fetchMovies';

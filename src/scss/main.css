@@ -1,0 +1,51 @@
+.js-search-form {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 336px;
+}
+
+@media screen and (max-width: 767px) {
+  .js-search-form {
+    width: 280px;
+  }
+}
+
+.js-input {
+  width: 336px;
+  height: 20px;
+  border: 0.5px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .js-input {
+    width: 280px;
+  }
+}
+
+.js-input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.js-search-btn {
+  position: absolute;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.fas {
+  color: #ffffff;
+  font-size: 12px;
+}
+/*# sourceMappingURL=main.css.map */
